@@ -164,6 +164,7 @@ input, textarea, select, .uneditable-input {
 
 input {
   height: auto !important;
+  font-size: 23px;
 }
 
 
@@ -180,4 +181,9 @@ input {
   .form-control {
     color: $state-danger-text;
   }
+}
+.sign_up
+{
+
+  text-align: center;
 }

@@ -187,3 +187,39 @@ input {
 
   text-align: center;
 }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 40px;
+  width: 100%;
+  //background-color: red;
+  //color: white;
+  text-align: center;
+}
+.btn
+{
+  font-size: 17px;
+
+}
+.checkbox {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  span {
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
+}
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
+  }
+}

@@ -24,9 +24,8 @@ Rails.application.configure do
       :address              => "smtp.gmail.com",
       :port                 => 587,
       :user_name            => "waqar.novatore@gmail.com",
-      :password             => "waqar0308",
+      :password             => "ecjzbajjtaxeoftp",
       :authentication       => "plain",
-      :domain         => 'heroku.com',
       :enable_starttls_auto => true
   }
   # Ensures that a master key has been made available in either ENV["RAILS_MASTER_KEY"]

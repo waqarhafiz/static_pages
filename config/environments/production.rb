@@ -17,6 +17,8 @@ Rails.application.configure do
   # config.action_mailer.raise_delivery_errors = true
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
+  host = 'https://peaceful-depths-70404.herokuapp.com/'
+  config.action_mailer.default_url_options = { host: host }
   # SMTP settings for gmail
   config.action_mailer.smtp_settings = {
       :address              => "smtp.gmail.com",
@@ -24,6 +26,7 @@ Rails.application.configure do
       :user_name            => "waqar.novatore@gmail.com",
       :password             => "waqar0308",
       :authentication       => "plain",
+      :domain         => 'heroku.com',
       :enable_starttls_auto => true
   }
   # Ensures that a master key has been made available in either ENV["RAILS_MASTER_KEY"]

@@ -417,7 +417,7 @@ DEPENDENCIES
   bootstrap-sass (~> 3.4.1)
   byebug
   capybara (>= 2.15)
-  carrierwave (= 1.2.2)
+  carrierwave
   chromedriver-helper
   coffee-rails (~> 4.2)
   fog (= 1.42)
